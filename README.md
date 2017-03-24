@@ -1,16 +1,30 @@
 # CRUD Boilerplate
-Node+Express+Mongo+GraphQL CRUD with authentication boilerplate
 
-##Installation
+This is CRUD boilerplate which is built with **Node**+**Express**+**Mongo**+**GraphQL**.
+
+
+## Installation.
 `npm install --no-optional`
 
-##Before you run
-###Init Databse
-`npm run initdb`
-###Drop Database
-`npm run dropdb`
-###Reset Databse
-`npm run revert`
+If you didn't installed `nodemon` on your machine yet, please install it.
 
-##Run Server
+`npm install -g nodemon`
+
+## Run.
+Initialize sample blog databse before you run.
+
+`npm run initdb`
+and
 `npm start`
+
+Open your browser, go to http://localhost:3000/
+
+## Database
+
+Drop database.
+
+`npm run dropdb`
+
+Reset database.
+
+`npm run revert`
