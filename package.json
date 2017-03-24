@@ -29,6 +29,7 @@
     "graphql-relay": "^0.5.1",
     "mongoose": "^4.9.1",
     "mongoose-paginate": "^5.0.3",
+    "path": "^0.12.7",
     "pow-mongoose-fixtures": "^0.3.0",
     "validator": "^7.0.0"
   }
