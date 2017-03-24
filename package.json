@@ -1,0 +1,35 @@
+{
+  "name": "CRUD",
+  "version": "0.1.0",
+  "description": "Node+Express+Mongo+GraphQL CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js --exec babel-node --presets es2015,stage-2",
+    "dropdb": "node ./scripts/dropdb.js",
+    "initdb": "node ./scripts/initdb.js",
+    "revert": "npm run dropdb && npm run initdb"
+  },
+  "author": "vonautomatisch",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.5",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "colors": "^1.1.2",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.3",
+    "express-paginate": "^0.2.2",
+    "faker": "^4.1.0",
+    "graphql": "^0.9.1",
+    "graphql-relay": "^0.5.1",
+    "mongoose": "^4.9.1",
+    "mongoose-paginate": "^5.0.3",
+    "pow-mongoose-fixtures": "^0.3.0",
+    "validator": "^7.0.0"
+  }
+}
