@@ -9,7 +9,7 @@
     "initdb": "node ./scripts/initdb.js",
     "revert": "npm run dropdb && npm run initdb"
   },
-  "author": "vonautomatisch",
+  "author": "binzailani3136",
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.5",
